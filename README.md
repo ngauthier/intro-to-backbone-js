@@ -26,5 +26,6 @@ In this training session, we'll go over the basic components of backbone js, sho
 
 ## Heroku
 
-[http://spreeconf-intro-to-backbone-js.herokuapp.com/](http://spreeconf-intro-to-backbone-js.herokuapp.com/)
-[git@heroku.com:spreeconf-intro-to-backbone-js.git](git@heroku.com:spreeconf-intro-to-backbone-js.git)
+Source: [http://spreeconf-intro-to-backbone-js.herokuapp.com/](http://spreeconf-intro-to-backbone-js.herokuapp.com/)
+
+Slides: [git@heroku.com:spreeconf-intro-to-backbone-js.git](git@heroku.com:spreeconf-intro-to-backbone-js.git)
