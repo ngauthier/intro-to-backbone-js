@@ -29,3 +29,7 @@ h3 {
   margin-bottom: 15px;
   font-weight: normal;
 }
+.content > pre {
+  font-size: 26px;
+  line-height: 28px;
+}
