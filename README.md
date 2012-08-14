@@ -6,21 +6,7 @@ Backbone.js is a small yet powerful javascript library for interacting with REST
 
 In this training session, we'll go over the basic components of backbone js, show some scenarios where it can be helpful, and even build a (small) client-side application.
 
-## Outline
-
-### Introduction
-
-* My info
-* Recipes with Backbone
-
-### Backbone Basics
-
-* Library not framework
-* Why? Small and injectable
-* REST Sync w/ collections and models
-* Routing
-* Views
-* BYO templates (handlebars is awesome)
+## Todo
 
 ### Building a Backbone app
 
