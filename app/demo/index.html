@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Breakfast Roll Recipes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/breakfast-roll.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='container'>
+      <div class='hero-unit'>
+        <h1>Breakfast Roll Recipes</h1>
+      </div>
+      <div class='row'>
+        <div class='span12' id='breakfast-roll'>
+          Loading...
+        </div>
+      </div>
+    </div>
+
+    <script type="text/x-handlebars-template" id="index-template">
+      There are {{ count }} recipes
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/backbone.js"></script>
+    <script src="js/handlebars.js"></script>
+    <script src="js/backbone-localstorage.js"></script>
+    <script src="js/breakfast-roll.js"></script>
+    <script>$(function() { BreakfastRoll.boot($('#breakfast-roll')); });</script>
+  </body>
+</html>

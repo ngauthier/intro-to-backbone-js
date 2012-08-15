@@ -2,6 +2,7 @@
   "name": "Intro to Backbone.js",
   "sections": [
     {"section":"introduction"},
-    {"section":"basics"}
+    {"section":"basics"},
+    {"section":"app"}
   ]
 }
