@@ -20,7 +20,7 @@
         <p><a href="http://spreeconf-intro-to-backbone-js.herokuapp.com/">
           http://spreeconf-intro-to-backbone-js.herokuapp.com/
         </a></p>
-        <p><a href="solved.html">View solved version</a></p>
+        <p><a href="index.html">View unsolved version</a></p>
       </div>
       <div class='row'>
         <div class='span12' id='breakfast-roll'>
@@ -31,6 +31,34 @@
 
     <script type="text/x-handlebars-template" id="index-template">
       <h2>There are {{ count }} recipes</h2>
+      <div class='recipes'></div>
+    </script>
+    <script type="text/x-handlebars-template" id="recipe-template">
+      <h3>{{ name }}</h3>
+      <p>{{ ingredients }}</p>
+      <p>
+        <button class='btn btn-danger'>Delete</button>
+      </p>
+    </script>
+    <script type="text/x-handlebars-template" id="form-template">
+      <legend>Add a recipe</legend>
+      <fieldset>
+        <div class='control-group'>
+          <label class='control-label' for='name'>Name</label>
+          <div class='controls'>
+            <input type='text' class='input-xlarge' id='name'>
+          </div>
+        </div>
+        <div class='control-group'>
+          <label class='control-label' for='ingredients'>Ingredients</label>
+          <div class='controls'>
+            <input type='text' class='input-xlarge' id='ingredients'>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Add Recipe</button>
+        </div>
+      </fieldset>
     </script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -38,7 +66,8 @@
     <script src="js/backbone.js"></script>
     <script src="js/handlebars.js"></script>
     <script src="js/backbone-localstorage.js"></script>
-    <script src="js/breakfast-roll.js"></script>
+    <script src="js/breakfast-roll-solved.js"></script>
     <script>$(function() { BreakfastRoll.boot($('#breakfast-roll')); });</script>
   </body>
 </html>
+
