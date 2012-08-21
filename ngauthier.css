@@ -1,6 +1,6 @@
 a, a:visited, a:active {
   color: #444;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #009fd5;
