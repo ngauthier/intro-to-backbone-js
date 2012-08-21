@@ -29,6 +29,18 @@
     }
   });
 
+  /*
+   * To do:
+   *
+   * * BreakfastRoll.Index.Form
+   *   A view that renders a form which can be submitted
+   *   to create a new recipe
+   * * BreakfastRoll.Index should add a subview for each
+   *   recipe in the database
+   * * BreakfastRoll.Recipe
+   *   A view that renders an individual recipe
+   */
+
   BreakfastRoll.Router = Backbone.Router.extend({
     initialize: function(options) {
       this.el = options.el
