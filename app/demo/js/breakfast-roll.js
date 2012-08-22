@@ -39,6 +39,7 @@
    *   recipe in the database
    * * BreakfastRoll.Recipe
    *   A view that renders an individual recipe
+   *   Also, a delete button to remove it
    */
 
   BreakfastRoll.Router = Backbone.Router.extend({
