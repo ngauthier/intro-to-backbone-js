@@ -8,5 +8,5 @@ In this training session, we'll go over the basic components of backbone js, sho
 
 ## Slides
 
-[View the slides online at heroku](http://spreeconf-intro-to-backbone-js.herokuapp.com/).
+[View the slides online at heroku](http://intro-to-backbone-js.herokuapp.com/).
 
