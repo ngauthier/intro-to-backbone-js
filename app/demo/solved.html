@@ -29,18 +29,18 @@
       </div>
     </div>
 
-    <script type="text/x-handlebars-template" id="index-template">
+    <script type="text/x-mustache-template" id="index-template">
       <h2>There are {{ count }} recipes</h2>
       <div class='recipes'></div>
     </script>
-    <script type="text/x-handlebars-template" id="recipe-template">
+    <script type="text/x-mustache-template" id="recipe-template">
       <h3>{{ name }}</h3>
       <p>{{ ingredients }}</p>
       <p>
         <button class='btn btn-danger'>Delete</button>
       </p>
     </script>
-    <script type="text/x-handlebars-template" id="form-template">
+    <script type="text/x-mustache-template" id="form-template">
       <legend>Add a recipe</legend>
       <fieldset>
         <div class='control-group'>
@@ -64,7 +64,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/underscore.js"></script>
     <script src="js/backbone.js"></script>
-    <script src="js/handlebars.js"></script>
+    <script src="js/mustache.js"></script>
     <script src="js/backbone-localstorage.js"></script>
     <script src="js/breakfast-roll-solved.js"></script>
     <script>$(function() { BreakfastRoll.boot($('#breakfast-roll')); });</script>

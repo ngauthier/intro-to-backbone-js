@@ -3,7 +3,7 @@
   window.BreakfastRoll = BreakfastRoll;
 
   var template = function(name) {
-    return Handlebars.compile($('#'+name+'-template').html());
+    return Mustache.compile($('#'+name+'-template').html());
   };
 
   BreakfastRoll.Recipe = Backbone.Model.extend({
